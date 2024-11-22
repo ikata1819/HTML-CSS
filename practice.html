@@ -6,11 +6,14 @@
     <title>
         practicing html
     </title>
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0"/>
+    
 </head>
 
 <body>
-    <h3> Practice makes a man perfect!</h3>
-    <h4> Practice makes a man perfect!</h4>
+    <h2 class="heading"> Practice makes a man perfect!</h2>
+    <h3 id="hi"> More practices </h3>
+    
     <hr>
     <div id="sub&sup">
         <p> can i have a glass of H<sub>2</sub>O </p>
@@ -25,25 +28,58 @@
     <a href="https://www.facebook.com/profile.php?id=100084084076025" target="_blank">My profile</a>
     <a href="mailto:anikatasnim1066@gmail.com">Send mail to Tasnim</a>
     <br><br>
-    <video src="vid.mp4" width="400" height="300" controls autoplay></video>
-    <iframe src="https://youtu.be/YX6_uuvP8Oc?si=WivrHN2lFgcHBNYf" frameborder="0">Hera hote hele dule</iframe>
-    <dl>
+    <video src="vid.mp4" width="400" height="300" muted controls autoplay></video> <br><br>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/yW93GlH3N7Q?si=BhA-lpxIxhaIoDgW" 
+    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+    picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <br> <br>
+    <!-- <iframe height="500" width="700" src="https://en.wikipedia.org/wiki/.org"  ></iframe> -->
+     <!-- <embed src="test.pdf" type="application/pdf" width="500" height="700"> -->
+        <!-- <br><br> -->
+        <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7296.176172385403!2d90.26220739999997!3d23.88649495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755e9a0a01a5ed3%3A0x5d4acad3e97573c6!2sIslamnagar%2C%20Savar!5e0!3m2!1sen!2sbd!4v1730621445432!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+    
+        <dl>
         <dt>Walton tv</dt>
         <dd>Deshi brand</dd>
         <dt>Iphone</dt>
         <dd>Apple product</dd>
     </dl>
 
-    <form action="https://formspree.io/f/xjkvyoap" method="post">
-        <fieldset>
-            <pre>
-                <label for="Full_name">Full Name:    </label><input type="text" name="Full_name"><br><br>
-                <label for="Email">Email:            </label><input type="text" name="Email"><br><br>
-                <label for="Password">Password:      </label><input type="password" name="Password"><br><br>
-                <label for="message">Your message:</label><textarea name="message"></textarea><br><br>
-                <input type="submit" value="Submit">
-            </pre>
-        </fieldset>
+    <form action="" method="post">
+                <label for="Full_name">Full Name:    </label> <br> 
+                <input type="text" name="Full_name"><br><br>
+                <label for="Email">Email:            </label><br>
+                <input type="text" name="Email"><br><br>
+                <label for="Password">Password:      </label> <br>
+                <input type="password" name="Password"><br><br>
+                <label for="message">Your message:</label> <br>
+                <textarea name="message"></textarea><br><br>
+                
+
+                Choose a course <br>
+                <input type="radio" name="course" value="Algorithm"> Algorithm
+                <input type="radio" name="course" value="EDC"> EDC
+                <input type="radio" name="course" value="Java"> Java
+                <br> <br>
+
+                Choose a course <br>
+                <input type="checkbox" name="course" value="Algorithm"> Algorithm
+                <input type="checkbox" name="course" value="EDC"> EDC
+                <input type="checkbox" name="course" value="Java"> Java
+                <br> <br>
+                Choose Division:
+                <input name="Division" list="Division" placeholder="Division">
+                <datalist id="Division">
+                    <option value="Science"></option>
+                    <option value="Commerce"></option>
+                    <option value="Humanities"></option>
+                </datalist>
+
+                <input type="submit" value="Submit"> <br>
+
+                
+
     </form>
     
     <table border="5" cellpadding="20" cellspacing="5">
@@ -71,6 +107,24 @@
             <td>37</td>
         </tr>
     </table>
+
+    <ul style="list-style-type: circle;">
+        <li>Tasnim</li>
+        <li>Anika</li>
+        <li>Ikata</li>
+    </ul>
+    
+    <ol type="a">
+        <li>Tasnim</li>
+        <li>Anika</li>
+        <li>Ikata</li>
+        <li>Aliases
+            <ul>
+                <li>Girlypop</li>
+                <li>Swetu</li>
+            </ul>
+        </li>
+    </ol>
     <footer> &copy; tasnim</footer>
     <!-- <aside>aside bar</aside> -->
      
